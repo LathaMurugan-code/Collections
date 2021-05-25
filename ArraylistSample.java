@@ -16,6 +16,10 @@ public class ArraylistSample {
 		System.out.println(a);
 		System.out.print("Is object 23 exists? ");
 		System.out.println(a.contains(23));
+		ArrayList a2 = new ArrayList();
+		a2.addAll(a);
+		//adds all elements from a
+		System.out.println("a2 ArrayList"+a2);
 		System.out.println("Arraylist after remove operation");
 		a.remove(2);
 		//remove the object at specified index

@@ -11,6 +11,8 @@ public class ArraylistSample {
 		System.out.println("Index of latha- "+a.indexOf("latha"));
 		a.add(2,true);
 		//add object at specified index
+		System.out.println("At index 1- "+a.get(1));
+		//Returns value at specified index
 		System.out.println(a);
 		System.out.print("Is object 23 exists? ");
 		System.out.println(a.contains(23));
